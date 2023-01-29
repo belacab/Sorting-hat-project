@@ -6,27 +6,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to the Sorting Hat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sorting_hat.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-image: url("https://i0.wp.com/instakilled.com/wp-content/uploads/2022/03/Hogwarts-Legacy-breakdown-top.jpg?fit=1920%2C1080&ssl=1");
+            background-attachment: fixed;
+        }
+        
+        
+    </style>
 </head>
-<div class="Introduccion">
-    <h1>Descubre tu casa con el Sombrero Seleccionador</h1>
-    <h3>¡Hey tú! ¿Listo para ser seleccionado? Sabes muy bien que Hogwarts tiene cuatro Casas: <br>Gryffindor, el hogar
-        de los valientes<br> <br>Hufflepuf, el hogar de los que son justos<br> <br>Ravenclaw, donde se aprecia la
-        inteligencia y sabiduría<br> <br>Finalmente Slytherin, donde predominan los ambiciosos.<br></h2>
-</div>
 
-<body>
-    <div class="Preguntas">
+<body>    
+    <div class="introduccion">        
+        <h1>Descubre tu casa con el Sombrero Seleccionador</h1>
+        <h3>¡Hey tú! ¿Listo para ser seleccionado? Sabes muy bien que Hogwarts tiene cuatro Casas: <br>Gryffindor, el
+            hogar de los valientes, <br> Hufflepuf, el hogar de los que son justos, <br> Ravenclaw, donde se aprecia la
+            inteligencia y sabiduría <br>y finalmente Slytherin, donde predominan los ambiciosos.<br></h3>
+    </div>
+
+    <div class="preguntas">
         <div>
+            <img src="https://assets.mugglenet.com/wp-content/uploads/2021/04/The-Sorting-Hat.jpg">
             <p>Yo, el Sombrero Seleccionador, te haré algunas preguntas para decidir tu casa en Hogwarts ¿Estás
                 preparado? Bien, ¡comencemos!</p>
         </div>
         <div>
             <div>
                 <div>
-                    <p>1) ¿Cómo te describirías en una palabra? </p>
+                    <p>1) ¿Cómo te describirías en una palabra?</p>
+                    <img src="https://i.blogs.es/45d0f6/hogwartslegacycasa1/450_1000.webp">
                 </div>
                 <div>
-                    <div>>
+                    <div>
                         <input type="radio" name="pregunta1" id="preg1valiente" value="Gryffindor"><label
                             for="preg1valiente">Valiente</label>
                     </div>
@@ -45,11 +63,12 @@
 
                 </div>
             </div>
-            <div>>
+            <div>
                 <div>
                     <div>
                         <div>
                             <p>2)¿Cuál es tu pensamiento sobre los muggles?</p>
+                            <img src="https://www.pockettactics.com/wp-content/sites/pockettactics/2022/08/howart-legacy-release-date-classroom.jpg">                          
                         </div>
                         <div><input type="radio" name="pregunta2" id="preg2agradar" value="Gryffindor"><label
                                 for="preg2agradar">Me agradan, hay que saber vivir sin magia</label>
@@ -57,7 +76,7 @@
                         <div><input type="radio" name="pregunta2" id="preg2respetar" value="Ravenclaw"><label
                                 for="preg2respetar">Deberíamos respetarlos</label>
                         </div>
-                        <div><input type="radio" name="pregunta2" id="preg2rcuriosidad" value="Hufflepuf"><label
+                        <div><input type="radio" name="pregunta2" id="preg2curiosidad" value="Hufflepuf"><label
                                 for="preg2curiosidad">Me da curiosidad su forma de vida sin magia</label>
                         </div>
                         <div><input type="radio" name="pregunta2" id="preg2superioridad" value="Slytherin"><label
@@ -73,6 +92,7 @@
                 <div>
                     <div>
                         <p>3)¿Cual de estas materias te gusta más?</p>
+                        <img src="https://www.gameshub.com/wp-content/uploads/sites/5/2022/03/hogwarts-legacy.jpg?w=1024">
                     </div>
                     <div><input type="radio" name="pregunta3" id="preg3defensa" value="Gryffindor"><label
                             for="preg3defensa">Defensa contra las artes oscuras</label>
@@ -94,18 +114,19 @@
                 <div>
                     <div>
                         <p>4)Elige una criatura</p>
+                        <img src="https://images.ctfassets.net/usf1vwtuqyxm/553KxKgTPGU6a02GKcQAgm/6bcea7afe8d981534764af8dc8ccc5e1/Crup.jpg?w=914&q=70&fm=jpg">
                     </div>
-                    <div><input type="radio" name="pregunta4" id="preg4criatura" value="Gryffindor"><label
-                            for="preg4criatura">León</label>
+                    <div><input type="radio" name="pregunta4" id="preg4leon" value="Gryffindor"><label
+                            for="preg4leon">León</label>
                     </div>
-                    <div><input type="radio" name="pregunta4" id="preg4criatura" value="Hufflepuf"><label
-                            for="preg4criatura">Tejón</label>
+                    <div><input type="radio" name="pregunta4" id="preg4tejon" value="Hufflepuf"><label
+                            for="preg4tejon">Tejón</label>
                     </div>
-                    <div><input type="radio" name="pregunta4" id="preg4criatura" value="Ravenclaw"><label
-                            for="preg4criatura">Àquila</label>
+                    <div><input type="radio" name="pregunta4" id="preg4aguila" value="Ravenclaw"><label
+                            for="preg4aguila">Águila</label>
                     </div>
-                    <div><input type="radio" name="pregunta4" id="preg4criatura" value="Slytherin"><label
-                            for="preg4criatura">Serpiente</label>
+                    <div><input type="radio" name="pregunta4" id="preg4serpiente" value="Slytherin"><label
+                            for="preg4serpiente">Serpiente</label>
                     </div>
                 </div>
             </div>
@@ -114,19 +135,25 @@
                 <div>
                     <div>
                         <p>5)¿Qué tipo de trabajo te gustaría hacer?</p>
+                        <img src="https://www.pcgames.de/screenshots/1000x562/2022/05/Hogwarts_Legacy_NPC_Hufflepuff_Poppy_Warner_Bros-buffed6.jpg">
                     </div>
-                    <div><input type="radio" name="pregunta5" id="preg4trabajo" value="Gryffindor"><label
-                            for="preg4trabajo">Uno se oriente a la seguridad</label>
+                    <div><input type="radio" name="pregunta5" id="preg5seguridad" value="Gryffindor"><label
+                            for="preg5seguridad">Uno se oriente a la seguridad</label>
                     </div>
-                    <div><input type="radio" name="pregunta5" id="preg4trabajo" value="Hufflepuf"><label
-                            for="preg4trabajo">Uno que ayude al prójimo</label>
+                    <div><input type="radio" name="pregunta5" id="preg5ayudar" value="Hufflepuf"><label
+                            for="preg5ayudar">Uno que ayude al prójimo</label>
                     </div>
-                    <div><input type="radio" name="pregunta5" id="preg4trabajo" value="Ravenclaw"><label
-                            for="preg4trabajo">uno que me permita adquirir y demostrar conocimiento</label>
+                    <div><input type="radio" name="pregunta5" id="preg5conocimiento" value="Ravenclaw"><label
+                            for="preg5conocimiento">uno que me permita adquirir y demostrar conocimiento</label>
                     </div>
-                    <div><input type="radio" name="pregunta5" id="preg4trabajo" value="Ravenclaw"><label
-                            for="preg4trabajo">uno que me lleve a la cima</label>
+                    <div><input type="radio" name="pregunta5" id="preg5cima" value="Slytherin"><label
+                            for="preg5cima">uno que me lleve a la cima</label>                            
                     </div>
+                    <!--<div>
+                        <div> Ahora veremos cual es tu casa</div>
+                        
+                        <img src="https://www.comboinfinito.com.br/principal/wp-content/uploads/2022/01/hogwarts-legacy-3.jpg" onclick="">
+                    </div> -->
                 </div>
 
             </div>

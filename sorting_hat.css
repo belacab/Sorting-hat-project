@@ -1,0 +1,30 @@
+h1{
+    font-family: 'Aboreto', cursive;
+    font-size: 50px;
+    padding-left: 250px;
+    text-align: center;
+    
+}
+
+h3{
+    font-family: 'Oswald', sans-serif;
+    line-height: normal;
+    padding-left: 50px;
+    
+}
+
+.preguntas{
+    text-align: center;
+    
+}
+
+img{
+    width: 30%;
+    height: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+    
+
+
